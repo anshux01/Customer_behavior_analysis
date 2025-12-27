@@ -1,141 +1,112 @@
-📊 Data Analytics Project – Customer Shopping Behavior Analysis
-📌 Overview
+# 📊 Data Analytics Project – Customer Shopping Behavior Analysis
 
-This project focuses on analyzing customer shopping behavior using Python, SQL, and Power BI.
-The goal is to extract actionable business insights through Exploratory Data Analysis (EDA), data cleaning, SQL-based analysis, and interactive dashboards, followed by a structured report and presentation.
+## 📌 Overview
+This project analyzes customer shopping behavior using **Python, SQL, and Power BI**.  
+It demonstrates a complete **end-to-end data analytics workflow**, including data loading, exploratory data analysis (EDA), data cleaning, SQL querying, dashboard creation, and reporting.
 
-The project demonstrates an end-to-end data analytics workflow, making it suitable for Data Analyst / Business Analyst roles.
+The project is designed to showcase practical analytics skills suitable for **Data Analyst / Business Analyst roles**.
 
-📁 Dataset
+---
 
-Source: Customer Shopping Behavior Dataset
+## 📁 Dataset
+- **Source:** Customer Shopping Behavior Dataset
+- **Format:** CSV
+- **Description:**  
+  The dataset contains customer demographic information and purchase behavior used to identify trends, patterns, and insights.
 
-Format: CSV
+**Key Columns:**
+- Customer ID  
+- Age  
+- Gender  
+- Product Category  
+- Purchase Amount  
+- Payment Method  
+- Shopping Frequency  
 
-Description:
-The dataset contains customer demographics, purchase behavior, product categories, spending patterns, and transaction details.
+---
 
-Key attributes include:
+## 🛠 Tools & Technologies
+- **Python** – Data loading, EDA, and cleaning  
+  - Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
+- **SQL** – Data querying and analysis  
+  - PostgreSQL / MySQL / SQL Server
+- **Power BI** – Interactive dashboards
+- **Gamma** – Report & presentation (PPT)
+- **Jupyter Notebook** – Analysis environment
+- **GitHub** – Version control
 
-Customer ID
+---
 
-Age, Gender
+## 🔍 Project Workflow
 
-Product Category
+### 1️⃣ Data Loading
+- Loaded the dataset into Python using `pandas`
+- Performed initial data inspection
 
-Purchase Amount
+### 2️⃣ Exploratory Data Analysis (EDA)
+- Analyzed customer demographics
+- Studied spending patterns and trends
+- Created visualizations for insights
 
-Payment Method
+### 3️⃣ Data Cleaning
+- Handled missing values
+- Removed duplicates
+- Standardized column names
+- Corrected data types
 
-Shopping Frequency
+### 4️⃣ SQL Analysis
+- Imported cleaned data into SQL databases
+- Wrote queries to:
+  - Identify top-selling product categories
+  - Analyze customer spending behavior
+  - Segment customers by age and gender
+  - Identify high-value customers
 
-🛠 Tools & Technologies
+### 5️⃣ Power BI Dashboard
+- Created interactive dashboards including:
+  - Key performance indicators (KPIs)
+  - Category-wise sales analysis
+  - Customer segmentation
+  - Trend analysis with filters
 
-Python – Data loading, cleaning, EDA
+### 6️⃣ Reporting & Presentation
+- Prepared a detailed analytical report
+- Created a professional presentation using **Gamma**
+- Focused on insights, visuals, and business recommendations
 
-Libraries: pandas, numpy, matplotlib, seaborn
+---
 
-SQL – Data querying and analysis
+## 📈 Dashboard Highlights
+- Customer segmentation by demographics
+- Product category performance
+- Sales and spending trends
+- Interactive slicers for analysis
 
-Databases: PostgreSQL / MySQL / SQL Server
+---
 
-Power BI – Interactive dashboards & visualizations
+## 📊 Key Results & Insights
+- Identified top revenue-generating product categories
+- Observed spending variations across age groups
+- Highlighted high-value and frequent customers
+- Provided data-driven recommendations for business growth
 
-Gamma – Report & presentation (PPT) creation
+---
 
-Jupyter Notebook – Analysis workflow
+## ▶️ How to Run the Project
 
-GitHub – Version control & documentation
-
-🔍 Project Workflow / Steps
-1️⃣ Data Loading
-
-Loaded the CSV dataset into Python using pandas
-
-Performed initial inspection (head(), info(), describe())
-
-2️⃣ Exploratory Data Analysis (EDA)
-
-Analyzed customer demographics
-
-Studied purchase trends and spending behavior
-
-Visualized distributions and relationships using charts
-
-3️⃣ Data Cleaning
-
-Handled missing values
-
-Removed duplicates
-
-Corrected data types
-
-Standardized column names
-
-4️⃣ SQL Analysis
-
-Imported cleaned data into SQL databases
-
-Wrote queries to:
-
-Identify top-selling categories
-
-Analyze customer spending patterns
-
-Segment customers by age and gender
-
-Track high-value customers
-
-5️⃣ Dashboard Creation (Power BI)
-
-Built interactive dashboards with:
-
-KPIs (Total Sales, Avg Purchase Value)
-
-Category-wise sales
-
-Customer segmentation visuals
-
-Trend analysis
-
-6️⃣ Reporting & Presentation
-
-Created a detailed analytical report
-
-Designed a professional PPT using Gamma
-
-Focused on insights, visuals, and business recommendations
-
-📈 Dashboard Highlights
-
-Customer segmentation by demographics
-
-Sales trends across categories
-
-High-value customer identification
-
-Interactive filters for deeper analysis
-
-📊 Key Results & Insights
-
-Identified top product categories driving revenue
-
-Discovered spending differences across age groups
-
-Highlighted customer segments with high purchase frequency
-
-Provided data-driven recommendations to improve sales strategy
-
-▶️ How to Run the Project
-🔹 Python Analysis
+### 🔹 Python Analysis
+Install required libraries:
+```bash
 pip install pandas numpy matplotlib seaborn
+```
 
+---
 
-Open and run:
+# Run the notebook:
 
 customer_behavior.ipynb
 
-🔹 SQL Analysis
+## 🔹 SQL Analysis
 
 Import the dataset into PostgreSQL / MySQL / SQL Server
 
@@ -143,25 +114,31 @@ Execute queries from:
 
 customer.sql
 
-🔹 Power BI Dashboard
+---
 
-Open the .pbix file in Power BI Desktop
+## 🔹 Power BI Dashboard
 
-Refresh data connection if required
+Open the .pbix file using Power BI Desktop
 
-📌 Project Deliverables
+Refresh the data source if needed
 
-✔ Python EDA Notebook
+---
 
-✔ SQL Query File
+## 📌 Project Deliverables
 
-✔ Power BI Dashboard
+Python EDA Notebook
 
-✔ Analytical Report (PDF)
+SQL Query File
 
-✔ Presentation (Gamma PPT)
+Power BI Dashboard
 
-🚀 Conclusion
+Analytical Report (PDF)
 
-This project showcases practical skills in data analysis, SQL querying, dashboarding, and storytelling with data.
-It reflects real-world analytics workflows and is designed to be clear, structured, and business-focused.
+Presentation (Gamma PPT)
+
+---
+
+## 🚀 Conclusion
+
+This project demonstrates strong skills in data analysis, SQL querying, dashboard creation, and data storytelling.
+It reflects real-world business analytics use cases and provides actionable insights from customer data.
